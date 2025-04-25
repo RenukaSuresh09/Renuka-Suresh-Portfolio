@@ -462,3 +462,61 @@ section .box {
 .btn-send:hover {
   background-color: #ffc26b;
 }
+
+/* ======= Contact icon style ======= */
+
+.contact-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    max-width: 500px;
+    margin-top: 30px;
+  }
+  
+  .contact-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    background-color: #f1f1f1;
+    padding: 20px;
+    border-radius: 12px;
+    text-decoration: none;
+    color: #333;
+    font-size: 20px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    transition: all 0.3s ease;
+  }
+  
+  .contact-item i {
+    font-size: 30px; /* Bigger icon size */
+  }
+  
+  .contact-item:hover {
+    transform: translateY(-5px);
+    background-color: #e9e9e9;
+  }
+  
+  /* Hover color for each */
+  .contact-item:nth-child(1):hover {
+    color: #d93025;
+  }
+  
+  .contact-item:nth-child(2):hover {
+    color: #0077b5;
+  }
+  
+  .contact-item:nth-child(3):hover {
+    color: #333;
+  }
+  
+  .contact-item:nth-child(4):hover {
+    color: #28a745;
+  }
+  
+  /* Responsive */
+  @media (max-width: 600px) {
+    .contact-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+  
