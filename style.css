@@ -448,8 +448,17 @@ section .box {
 
 
 .btn-send {
-    background-color: #fffefe;
-    color: #0b0b0b;
-    padding: 0.75rem 1rem;
-    border: none;
+  background-color: #f0d5be;
+  color: #ffffff;
+  padding: 0.75rem 1.2rem;
+  font-size: 14px;
+  border: none;
+  border-radius: 5px;
+  align-self: flex-start;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.btn-send:hover {
+  background-color: #ffc26b;
 }
