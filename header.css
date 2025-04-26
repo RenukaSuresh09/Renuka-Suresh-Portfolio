@@ -74,7 +74,7 @@ img {
 
 .container {
     padding: 1.2rem 6%;
-    display: flex;
+    display: relative;
     justify-content: space-between;
     flex-wrap: wrap;
 }
